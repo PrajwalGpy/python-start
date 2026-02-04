@@ -54,19 +54,34 @@
 
 
 
-customer_name = "Prajwal GP"
-number_of_passes = 5
-token_per_pass = 500
-price_per_pass = 10.5
-token_req_per_game = 100
+# customer_name = "Prajwal GP"
+# number_of_passes = 5
+# token_per_pass = 500
+# price_per_pass = 10.5
+# token_req_per_game = 100
 
 
-total_tokens =  token_per_pass * number_of_passes
-total_cost = number_of_passes * price_per_pass
-game_availabel = total_tokens / token_req_per_game 
+# total_tokens =  token_per_pass * number_of_passes
+# total_cost = number_of_passes * price_per_pass
+# game_availabel = total_tokens / token_req_per_game 
 
-print("customer name :- " + customer_name)
-print("passes bought :- " + str(number_of_passes))
-print("total tokens :- " + str(total_tokens))
-print("total cost :- " + str(total_cost))
-print("games available :- " + str(game_availabel))
+# print("customer name :- " + customer_name)
+# print("passes bought :- " + str(number_of_passes))
+# print("total tokens :- " + str(total_tokens))
+# print("total cost :- " + str(total_cost))
+# print("games available :- " + str(game_availabel))
+
+
+# user input
+
+# name = input("Enter your name : ")
+# age = input("Enter your age : ")
+
+# print(f"hee {name} you are {age} old")
+
+# num1 = float(input("Enter the first number :"))
+# num2 = float(input("Enter the second number : "))
+
+
+# value = num1 + num2
+# print(value)
