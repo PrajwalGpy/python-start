@@ -94,8 +94,24 @@
 # - hint: use correct types for calculating and print
 # - Did you capitalize the name
 
-name = input("Enter the your name : ")
-distence = float(input("Enter your distance in km : "))
-km_in_miles = distence/1.609
-print(f"your name is {name.capitalize()} and the miles you are in {round(km_in_miles,2)}")
+# name = input("Enter the your name : ")
+# distence = float(input("Enter your distance in km : "))
+# km_in_miles = distence/1.609
+# print(f"your name is {name.capitalize()} and the miles you are in {round(km_in_miles,2)}")
 
+
+# a = 3
+# b = 2
+
+# print([a+b],[a-b],[a*b],[a/b],[a//b],[a%b],[a**b])
+
+
+# msg = "welcome to Python 101: Strings"
+# print(msg.upper())
+# print(msg.lower())
+# print(msg.capitalize())
+# print(msg.title())
+
+# print(len(msg))
+
+# print(msg.count("o"))
