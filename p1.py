@@ -119,3 +119,13 @@
 # msg='welcome to Python 101: Strings'
 # out = f"{msg[-10]} {msg[:7].capitalize()} { msg[25:29]} {msg[8:10]} {msg[13]+msg[12]+msg[2]+msg[1]+msg[-5]}"
 # print(out.title())
+
+# msg='welcome to Python 101: Strings'
+# # print(msg.find("w"))
+# print(msg.replace("101","Prajwal GP"))
+# print( "Py" not in msg)
+
+# name='TERRY'
+# color = 'RED'
+
+# print(f"{name.title()} loves the color {color.lower()}")
