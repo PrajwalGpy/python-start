@@ -21,3 +21,52 @@
 # h = int(float("4.5"))
 
 # print([a,b,c,d,f,g,h])
+
+
+# item_name = "blurballs"
+# item_price = 20.3
+# item_contity = 30
+# in_stock = True
+# print(item_name,item_price,item_contity,in_stock)
+
+
+
+# 🕹️ Arcade Day Pass Tracker — Challenge Steps
+#
+# 1) Create variables to store:
+#    - customer name
+#    - number of passes
+#    - tokens per pass
+#    - price per pass
+#    - tokens required per game
+#
+# 2) Calculate:
+#    - total tokens
+#    - total cost
+#    - games available  (use 'floor division' to get a whole number)
+#
+# 3) Print a summary with:
+#    - customer name
+#    - passes bought
+#    - total tokens
+#    - total cost
+#    - games available
+
+
+
+customer_name = "Prajwal GP"
+number_of_passes = 5
+token_per_pass = 500
+price_per_pass = 10.5
+token_req_per_game = 100
+
+
+total_tokens =  token_per_pass * number_of_passes
+total_cost = number_of_passes * price_per_pass
+game_availabel = total_tokens / token_req_per_game 
+
+print("customer name :- " + customer_name)
+print("passes bought :- " + str(number_of_passes))
+print("total tokens :- " + str(total_tokens))
+print("total cost :- " + str(total_cost))
+print("games available :- " + str(game_availabel))
