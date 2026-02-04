@@ -164,3 +164,9 @@
 #     print("You need a new pit crew. 🛠️")
 
 
+# friends = ['Prajwal','GP','Pajju','Pajju GP']
+
+# print(friends[1])
+# print(friends.index())
+
+
