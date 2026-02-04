@@ -170,3 +170,32 @@
 # print(friends.index())
 
 
+# friends = ['John','Michael','Terry','Eric','Graham']
+# cars = [911,130,328,535,740,308]
+# friends.sort()
+# print(friends)
+# cars.sort()
+# print(cars)
+# friends.sort(reverse=True)
+# print(friends)
+
+# print(max(cars))
+# print(min(cars))
+
+# friends.append("Prajwal") # insert value into the end of the list
+# friends.insert(2,"GP")  # insert an value into specific position
+# friends[0]= "gogo"
+# friends.extend(cars) # combine to lists 
+# print(friends)
+
+# friends.remove('Eric')
+# friends.pop()
+# friends.pop(0)
+# del friends[1]
+# print(friends)
+
+
+# new_friends = friends[:]
+# new_friends = friends.copy()
+# new_friends = list(friends)
+# print(new_friends)
