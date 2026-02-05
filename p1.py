@@ -295,3 +295,25 @@
 #     greeting(name,age)
 # else:
 #     greeting(name)
+
+
+
+
+
+# 1. Add new print statement - on a new line
+#    which says 'We hear you like the color xxx! xxx is a string with color 
+# 2. extend the function with another  input parameter 'color', that defaults to 'red'
+# 3. Capture the color via an input box as variable:color 
+# 4. Change the 'You are xx!' text to say 'you will be xx+1 years old next birthday 
+#  adding 1 to the age
+# 5. Capitalize first letter of the 'name', and rest are small caps 
+# 6. Favorite color should be in lowercase 
+
+def greeting(name,color='red', age=28):
+    print(f"We hear you like the color {color.lower()}")
+    print(f"You are {name.capitalize()}!  you will be {int(age)+ 1} years old next birthday")
+    
+color = input("Enter your fav color : ")
+name = input('Enter your name: ')
+age = input('Enter your age: ')
+greeting(name,color,age)
