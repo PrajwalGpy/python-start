@@ -242,3 +242,43 @@
 # friends_list = list(csv.split(","))
 # print(friends_list)
 
+
+# friends = ["pgp","gp","jj","gojo"]
+# friends_tuple = ("pgp","gp","jj","gojo")
+# friends_set = {"pgp","gp","jj","gojo"}
+# friends_set_2= {"pgp","gp","jj","gojo","jaady","nodes"}
+# # friends = []
+# # friends_tuple= tuple()
+# # friends_set = set()
+
+# print(friends_set.intersection(friends_set_2))
+# print(friends_set_2.difference(friends_set))
+# print(friends_set.union(friends_set_2))
+
+
+
+
+
+#Sets - Exercise
+
+#1. Check if ‘Eric’ and ‘John’ exist in friends
+#2. combine or add the two sets 
+#3. Find names that are in both sets
+#4. find names that are only in friends
+#5. Show only the names who only appear in one of the lists
+#6. Create a new cars-list without duplicates
+
+friends = {'John','Michael','Terry','Eric','Graham'}
+my_friends = {'Reg','Loretta','Colin','John','Graham'}
+cars =['900','420','V70','911','996','V90','911','911','S','328','900']
+
+print('Eric' and 'John' in friends)
+
+print(friends.union(my_friends))
+
+print(friends.intersection(my_friends))
+
+print(friends.difference(my_friends))
+
+cars = set(cars)
+print(cars)
