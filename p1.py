@@ -215,9 +215,9 @@
 # print(f"worst earing day {min(sales)*1.5}$")
 # print(f"Total Profit is { sum(sales)*1.5}$")
 
-msg ='Welcome   to  Python  101: Split   and Join'
-csv = 'Eric,John,Michael,Terry,Graham'
-friends_list = ['Eric','John','Michael','Terry','Graham']
+# msg ='Welcome   to  Python  101: Split   and Join'
+# csv = 'Eric,John,Michael,Terry,Graham'
+# friends_list = ['Eric','John','Michael','Terry','Graham']
 
 # print(msg.split())
 # print(csv.split(','))
@@ -226,3 +226,19 @@ friends_list = ['Eric','John','Michael','Terry','Graham']
 # print("-".join(msg.split()))
 
 # print(msg.replace(" ",''))
+
+
+
+# csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
+# friends_list = []
+# print(friends_list)
+# # From the list above fill a list(friends_list) properly
+# # with the names of all the friends. One per "slot"
+# # you may need to run same command several times
+# # use print() statements to work your way through the exercise
+
+# csv = csv.replace(":",",")
+# csv = csv.replace(";",",")
+# friends_list = list(csv.split(","))
+# print(friends_list)
+
