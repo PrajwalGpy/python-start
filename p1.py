@@ -199,3 +199,19 @@
 # new_friends = friends.copy()
 # new_friends = list(friends)
 # print(new_friends)
+
+
+# sales_w1 = [7,3,42,19,15,35,9]
+# sales_w2 = [12,4,26,10,7,28]
+# sales = []
+
+# lamanade = int(input("Enter the number of lemanade selled on this day : "))
+# sales_w2.append(lamanade)
+# sales_w1.extend(sales_w2)
+# sales = list(sales_w1)
+# print(sales)
+# print("____________________________________")
+# print(f"best earing {max(sales)*1.5}$")
+# print(f"worst earing day {min(sales)*1.5}$")
+# print(f"Total Profit is { sum(sales)*1.5}$")
+
