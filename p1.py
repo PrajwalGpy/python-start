@@ -393,3 +393,9 @@
 # num_days('jul')
 # # optimize/shorten the code in the function
 # # try to reduce the number of conditionals 
+
+
+# i = 1
+# while i <= 5:
+#     print(f"{i}.{'*'*i}Loops are great{'*'*i}")
+#     i = i+1
