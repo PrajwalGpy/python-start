@@ -309,11 +309,23 @@
 # 5. Capitalize first letter of the 'name', and rest are small caps 
 # 6. Favorite color should be in lowercase 
 
-def greeting(name,color='red', age=28):
-    print(f"We hear you like the color {color.lower()}")
-    print(f"You are {name.capitalize()}!  you will be {int(age)+ 1} years old next birthday")
+# def greeting(name,color='red', age=28):
+#     print(f"We hear you like the color {color.lower()}")
+#     print(f"You are {name.capitalize()}!  you will be {int(age)+ 1} years old next birthday")
     
-color = input("Enter your fav color : ")
-name = input('Enter your name: ')
-age = input('Enter your age: ')
-greeting(name,color,age)
+# color = input("Enter your fav color : ")
+# name = input('Enter your name: ')
+# age = input('Enter your age: ')
+# greeting(name,color,age)
+
+
+
+
+# def GrandTotal(amount):
+#     total = amount * 10
+#     rage = 20
+#     return [total,rage]
+
+# value = GrandTotal(amount=200)
+# print(value[1],type(value))
+
