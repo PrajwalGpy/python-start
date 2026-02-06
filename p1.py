@@ -346,3 +346,31 @@
 # print(c == d)
 # print( c is d)
 # print(id(c),id(d))
+
+
+# print('if elif else - Exercise')
+# Create a calculator which handles +,-,*,/ and outputs answer based on the mode/ operator used
+# Hint: use 3 separate inputs 
+# Bonus: Extend functionality with extra mode so it also does celsius to fahrenheit conversion
+# formula is: temp in C*9/5 + 32 = temp in f
+
+# num1 =20
+# num2 = 5
+# operand = "-"
+# temp = 68
+# f = 0
+# if temp :
+#     f = temp*9/5+32
+
+# result = 0
+# if operand == "+":
+#     result=  num1 + num2
+# elif operand == "-":
+#     result = num1 - num2
+# elif operand == "*":
+#     result = num1 * num2
+# else :
+#     result = num1 / num2
+    
+# print(result)
+# print(f"temp is : {f}")
