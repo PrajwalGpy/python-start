@@ -329,3 +329,20 @@
 # value = GrandTotal(amount=200)
 # print(value[1],type(value))
 
+
+# a = 2
+# b = 7
+
+# print(a>b)
+# print(a<b)
+# print(a!=b)
+# print(a== b)
+# print("a" in "ajji")
+# print("a" not in "gjji")
+
+# c = [1,2,3]
+# d = [1,2,3]
+
+# print(c == d)
+# print( c is d)
+# print(id(c),id(d))
