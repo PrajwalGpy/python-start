@@ -507,16 +507,21 @@
 # 7. If not, print an error message: "Please enter exactly 10 digits."
 
 
-phone_number = input("Enter your phone number : ")
-phone_number = phone_number.strip()
-# phone_number = phone_number.replace('-',' ').replace('(',' ').replace(')',' ').replace('.',' ')
+# phone_number = input("Enter your phone number : ")
+# phone_number = phone_number.strip()
+# # phone_number = phone_number.replace('-',' ').replace('(',' ').replace(')',' ').replace('.',' ')
 
-for ch in ['-','(',')','.']:
-    phone_number = phone_number.replace(ch,' ')
+# for ch in ['-','(',')','.']:
+#     phone_number = phone_number.replace(ch,' ')
     
-phone_number = ''.join(phone_number.split())
+# phone_number = ''.join(phone_number.split())
 
-if len(phone_number) == 10 :
-    print(f"({phone_number[:3]}) {phone_number[3:6]}-{phone_number[6:]}")
-else:
-    print("Please enter exactly 10 digits.")
+# if len(phone_number) == 10 :
+#     print(f"({phone_number[:3]}) {phone_number[3:6]}-{phone_number[6:]}")
+# else:
+#     print("Please enter exactly 10 digits.")
+
+# names = ['john ClEEse','Eric IDLE','michael']
+
+# for name,ind in enumerate(names,5):
+#     print(name,ind)
