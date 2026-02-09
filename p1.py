@@ -509,7 +509,11 @@
 
 phone_number = input("Enter your phone number : ")
 phone_number = phone_number.strip()
-phone_number = phone_number.replace('-',' ').replace('(',' ').replace(')',' ').replace('.',' ')
+# phone_number = phone_number.replace('-',' ').replace('(',' ').replace(')',' ').replace('.',' ')
+
+for ch in ['-','(',')','.']:
+    phone_number = phone_number.replace(ch,' ')
+    
 phone_number = ''.join(phone_number.split())
 
 if len(phone_number) == 10 :
