@@ -402,7 +402,7 @@
 
 
 
-print('Guessing game') 
+# print('Guessing game') 
 # Guess the correct number in 3 guesses. If you don’t get it right after 3 guesses you lose the game. 
 # Give user input box: 1. To capture guesses, 
 # print(and input boxes) 1. If user wins 2. If user loses
@@ -446,28 +446,36 @@ print('Guessing game')
 # 7. If it's not one of those drinks, print a warning and continue
 # 8. After the loop, print total number of drinks and total price
 
-total_price = 0
-drink_count = 0
+# total_price = 0
+# drink_count = 0
 
-while True:
-    name = input("Enter your name :(exit menu type done) :")
-    if name.lower() == "done":
-        break
-    drink_orders = input("What you want to drink (latte,americano,espresso) : ")
+# while True:
+#     name = input("Enter your name :(exit menu type done) :")
+#     if name.lower() == "done":
+#         break
+#     drink_orders = input("What you want to drink (latte,americano,espresso) : ")
     
-    if drink_orders == "latte":
-        total_price += 3.50
-        drink_count += 1
-    elif drink_orders == "americano":
-        total_price += 3.00
-        drink_count += 1
-    elif drink_orders == "espresso":
-        total_price += 2.50
-        drink_count +=1
-    else:
-        print("order is not available")
+#     if drink_orders == "latte":
+#         total_price += 3.50
+#         drink_count += 1
+#     elif drink_orders == "americano":
+#         total_price += 3.00
+#         drink_count += 1
+#     elif drink_orders == "espresso":
+#         total_price += 2.50
+#         drink_count +=1
+#     else:
+#         print("order is not available")
         
 
-print("------------Bill-------------------")
-print(f"total number of drinks : {drink_count}")
-print(f"total Price is : {total_price}")
+# print("------------Bill-------------------")
+# print(f"total number of drinks : {drink_count}")
+# print(f"total Price is : {total_price}")
+
+# for loop
+
+# name = ['Pajju','rajju','sajju']
+
+# for names in range(2):
+#     for ju in name:
+#         print(names,ju)
