@@ -479,3 +479,20 @@
 # for names in range(2):
 #     for ju in name:
 #         print(names,ju)
+
+
+# names = ['john ClEEse','Eric IDLE','michael']
+# names1 = ['graHam chapman', 'TERRY', 'terry jones']
+
+# for name in range(2):
+#     added_name = input("Enter the extra gests name : ")
+#     names.append(added_name)
+
+
+
+# all_gestes = names  + names1 
+
+
+# for all_gust in all_gestes:
+#     print(f"{all_gust.title()} You are invited to party for sunday!")
+    
