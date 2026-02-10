@@ -630,3 +630,17 @@
 # print(f'Total points earned : {total_points}')
 # print(f'Final tier : {final_tier}')
     
+    
+# movie  = {
+#     'name' : 'gangubai',
+#     'year': 2025,
+#     'acters' : ['pajju','sajju','gajju']
+    
+# }
+# # print(movie.get('name'))
+# # movie['beget'] = 3000
+# # print(movie)
+# movie.pop('year')
+
+# for key,value in movie.items():
+#     print(key,value)
