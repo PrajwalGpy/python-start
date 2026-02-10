@@ -644,3 +644,42 @@
 
 # for key,value in movie.items():
 #     print(key,value)
+
+
+# 🐾 Dog Bus Tracker — Challenge Steps
+#
+# 1. Start with a bus dictionary holding current passengers.
+#    - Each seat number (1, 2, 3, ...) is a key
+#    - Each value is another dictionary with each pet's:
+#        • name
+#        • breed
+#        • pickup time
+#        • dropoff time
+#
+# 2. Print a starting roster showing each pet’s seat, name, and pickup time.
+#
+# 3. Add one new pet if there’s room on the bus.  
+#    - Use MAX_SEATS to limit capacity.  
+#    - Dynamically assign the next seat number.  
+#    - Print the updated roster showing all pets after pickup.  
+#
+# 4. Ask which pet leaves early.  
+#    - Remove that pet from the bus.  
+#    - Print a message saying they’ve headed home.  
+#
+# 5. Print a final roster listing the remaining pets and their dropoff times.  
+
+# MAX_SEATS = 4
+# passengers = {
+#     '1' : {'name':'Pjuu','breed':'lab','pickup':4.5,'dropoff':8},
+#     '2':{'name':'rjju','breed':'lab','pickup':9.5,'dropoff':9},
+#     '3':{'name':'Pjuu','breed':'lab','pickup':10.5,'dropoff':6}
+# }
+
+# for passe,value in passengers.items():
+#     print(value['name'],passe,value['breed'],value['pickup'],value['dropoff'])
+
+# next_seat = max(passengers)+1
+    
+#  if MAX_SEATS < next_seat :
+#     # passengers.update({})
