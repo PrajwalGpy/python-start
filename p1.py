@@ -525,3 +525,10 @@
 
 # for name,ind in enumerate(names,5):
 #     print(name,ind)
+
+num = [3,4,10,-2,3,5]
+# num.sort()
+# num.reverse()
+
+print(sorted(num,reverse=True))
+
