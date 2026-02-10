@@ -526,9 +526,59 @@
 # for name,ind in enumerate(names,5):
 #     print(name,ind)
 
-num = [3,4,10,-2,3,5]
-# num.sort()
-# num.reverse()
+# num = [3,4,10,-2,3,5]
+# # num.sort()
+# # num.reverse()
 
-print(sorted(num,reverse=True))
+# print(sorted(num,reverse=True))
 
+
+# 🛂 Access Control Scanner Challenge
+#
+# 1. Create a set of revoked badge numbers.
+# 2. Create two empty lists: "approved" and "denied".
+# 3. Start a loop to collect visitor info:
+#    - Ask for the visitor's name (or type "done" to finish).
+#    - If the name is "done", exit the loop.
+#    - Otherwise, ask for their badge number.
+#    - Check if the badge is revoked:
+#        • If revoked: add the name to "denied" and display "ACCESS DENIED".
+#        • If not: add the name to "approved" and display "ACCESS GRANTED".
+# 4. Print the final "Access Summary" for "✅ Approved Visitors" & "⛔️ Denied Visitors":
+#    - Sort both lists alphabetically.
+#    - Display the total number of approved and denied visitors.
+
+ 
+
+
+# revoked_badge = [22,44,89.78,67,100]
+
+# approved =[]
+# denied = []
+
+# while True :
+#     name = input("Enter your name : (or type \"done\" to finish) : ")
+#     if name.lower() == "done":
+#         break
+#     else:
+#         badge_number = int(input("Enter your badge number : "))
+        
+#         if badge_number in revoked_badge:
+#             denied.append(name)
+#             print(f"{name} your access denied")
+#         else:
+#             approved.append(name)
+#             print(f"{name} access granted")
+
+# print("---------------------------------------------------------")
+# print("✅ Approved Visitors \& ⛔️ Denied Visitors")
+# sorted(approved)
+# sorted(denied)
+# print(f"✅ Approved Visitor")
+# for approve in approved:
+#     print(approve)
+# print(f"the total approved is {len(approved)}")
+# print(f"⛔️ Denied Visitors")
+# for deniede in denied:
+#     print(deniede)
+# print(f"the total deniede is {len(denied)}")
