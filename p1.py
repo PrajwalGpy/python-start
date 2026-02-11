@@ -701,12 +701,45 @@
 freelancers = {'name':'freelancing Shop','brian': 70, 'black knight':20, 'biccus diccus':100, 'grim reaper':500, 'minstrel':-15}
 antiques = {'name':'Antique Shop','french castle':400, 'wooden grail':3, 'scythe':150, 'catapult':75, 'german joke':5}
 pet_shop = {'name':'Pet Shop','blue parrot':10, 'white rabbit':5, 'newt': 2}
-cart = {}
-for item in (freelancers,antiques,pet_shop) :
-    item_name = input(f'Welcome to {item['name']}! what do you want to buy: {item}')
-    cart.update({item_name:item.pop(item_name)})
 
-print(f'You Purchased {cart} Today it is all free. Have a nice day of mayhem!')
+cart = {}
+purse = 1000
+
+# Function to show inventory (merging on the fly)
+def get_inventory():
+    return freelancers | antiques | pet_shop
+
+print(f"Inventory before: {get_inventory()}")
+print("__________________________________________")
+
+for shop in (freelancers, antiques, pet_shop):
+    # Using .get() for the name so we don't accidentally buy the 'name' key
+    prompt = f"Welcome to {shop['name']}! (Purse: {purse})\n{shop}\nWhat do you want to buy? (type 'exit' to leave): "
+    item_name = input(prompt).lower().strip()
+    
+    if item_name == 'exit':
+        continue # Moves to the next shop
+    
+    if item_name not in shop or item_name == 'name':
+        print(f"Sorry, we don't have '{item_name}' here.")
+        continue
+    
+    # Transfer the item
+    price = shop.pop(item_name)
+    cart.update({item_name: price})
+    purse -= price
+    print(f"Added {item_name} to cart for {price} gold.")
+
+# Final Summary
+total_spent = sum(cart.values())
+bought_items = ", ".join(cart.keys())
+
+print("__________________________________________")
+print(f"You Purchased: {bought_items}")
+print(f"Total spending: {total_spent} | Remaining gold: {purse}")
+print(f"Inventory after: {get_inventory()}")
+
+
 
 
 
