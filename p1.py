@@ -758,5 +758,17 @@
 # myfile = open('/home/prajwalgp/Downloads/pajju.txt','r')
 # print(myfile.readlines())
 # myfile.close()
-with open('/home/prajwalgp/Downloads/pajju.txt','r') as f :
-    print(f.read())
+# with open('/home/prajwalgp/Downloads/pajju.txt','r') as f :
+#     print(f.read())
+
+
+
+try:
+    num = int(input("Enter an number betwenv 1 and 30 :"))
+    value = 30/num
+except ZeroDivisionError as err:
+    print(err,"you canot enter zero")
+except ValueError as err:
+    print(err,"value is not valid")
+except :
+    print("invalid value")
