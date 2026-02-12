@@ -763,12 +763,16 @@
 
 
 
-try:
-    num = int(input("Enter an number betwenv 1 and 30 :"))
-    value = 30/num
-except ZeroDivisionError as err:
-    print(err,"you canot enter zero")
-except ValueError as err:
-    print(err,"value is not valid")
-except :
-    print("invalid value")
+# try:
+#     num = int(input("Enter an number betwenv 1 and 30 :"))
+#     value = 30/num
+# except ZeroDivisionError as err:
+#     print(err,"you canot enter zero")
+# except ValueError as err:
+#     print(err,"value is not valid")
+# except :
+#     print("invalid value")
+# else:
+#     print(f"diviton is {value}")
+# finally:
+#     print("Thnaks for plalying")
