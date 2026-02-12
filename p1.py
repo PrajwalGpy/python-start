@@ -776,3 +776,24 @@
 #     print(f"diviton is {value}")
 # finally:
 #     print("Thnaks for plalying")
+
+
+
+# class movie:
+#     def __init__(self,name,year,score):
+#         self.name = name
+#         self.year = year
+#         self.score = score
+        
+#     def info(self):
+#         print(f'Movie name : {self.name}')
+#         print(f'Movie year : {self.year}')
+#         print(f'Movie score : {self.score}')
+
+# film1 = movie('gagan',2024,9.8)
+# film2 = movie('raju',2026,7.8)
+
+# print(film1.name,film1.year)
+# film2.info()
+
+# movie.info(film1)
