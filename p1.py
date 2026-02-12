@@ -758,3 +758,5 @@
 # myfile = open('/home/prajwalgp/Downloads/pajju.txt','r')
 # print(myfile.readlines())
 # myfile.close()
+with open('/home/prajwalgp/Downloads/pajju.txt','r') as f :
+    print(f.read())
