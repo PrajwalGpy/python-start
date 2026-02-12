@@ -797,3 +797,33 @@
 # film2.info()
 
 # movie.info(film1)
+
+# class Person:
+#     def move(self):
+#         print("move 4 step")
+#     def rest(self):
+#         print("heal 4 points")
+        
+# class Doctor(Person):
+#     def heal(self):
+#         print("Heal 10 points")
+        
+# class wizard(Doctor):
+#     def magic(self):
+#         print("Deal magic damage")   
+#     def heal(self):
+#         print('heal 15 points')
+
+# char1 = Person()
+# # char1.move()
+# # char1.rest()
+
+# char2 = Doctor()
+
+# # char2.heal()
+# # char2.move()
+    
+# char3 = wizard()
+
+# char3.magic()
+# char3.heal()  
