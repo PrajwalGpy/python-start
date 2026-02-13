@@ -877,3 +877,9 @@
 # myPizza.remove_toppings("salad")
 # myPizza.remove_toppings("pajju")
 # myPizza.display()
+
+
+# import random as rand
+# my_numbers = [10, 20, 30, 40, 50]
+# choi = rand.choice(my_numbers)
+# print(choi)
