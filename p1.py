@@ -893,3 +893,10 @@
 # bed,no = zip(*dog)
 # bed= list(bed)
 # print(bed,no)
+
+
+print('Lambdas Exercise')
+
+# def f(x): return x + 5
+# f = lambda x,y: x+y
+# print(f(2,4))
