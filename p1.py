@@ -923,3 +923,8 @@ print('Lambdas Exercise')
 # g = create_quad_func(5,6,7)
 # print(f(2))
 # print(g(2))
+
+signups = ['MPF104', 'MPF20', 'MPF2', 'MPF17', 'MPF3', 'MPF45']
+# print(sorted(signups)) # Lexicographic sort
+#write sorting by integer
+print(sorted(signups,key= lambda id:int(id[3:]))) # Integer sort
