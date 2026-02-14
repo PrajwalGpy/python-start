@@ -883,3 +883,13 @@
 # my_numbers = [10, 20, 30, 40, 50]
 # choi = rand.choice(my_numbers)
 # print(choi)
+
+# num = '1234'
+# car = ['rajju','ggajju','sajju']
+
+# dog = zip(num,car)
+# print(dog)
+
+# bed,no = zip(*dog)
+# bed= list(bed)
+# print(bed,no)
