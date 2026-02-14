@@ -914,3 +914,12 @@ print('Lambdas Exercise')
 # #write lambda below 
 # join_list_no_duplicates1 = lambda list_a,list_b : list(set(list_a + list_b))
 # print(join_list_no_duplicates1(list_a,list_b))
+
+#Complete the function so it returns a function
+# def create_quad_func(a,b,c):
+#     '''return function f(x) = ax^2 + bx + c'''
+#     return lambda x: a*x**2 + b*x + c
+# f = create_quad_func(2,4,6)
+# g = create_quad_func(5,6,7)
+# print(f(2))
+# print(g(2))
