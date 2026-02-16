@@ -895,7 +895,7 @@
 # print(bed,no)
 
 
-print('Lambdas Exercise')
+# print('Lambdas Exercise')
 
 # def f(x): return x + 5
 # f = lambda x,y: x+y
@@ -924,7 +924,23 @@ print('Lambdas Exercise')
 # print(f(2))
 # print(g(2))
 
-signups = ['MPF104', 'MPF20', 'MPF2', 'MPF17', 'MPF3', 'MPF45']
-# print(sorted(signups)) # Lexicographic sort
-#write sorting by integer
-print(sorted(signups,key= lambda id:int(id[3:]))) # Integer sort
+# signups = ['MPF104', 'MPF20', 'MPF2', 'MPF17', 'MPF3', 'MPF45']
+# # print(sorted(signups)) # Lexicographic sort
+# #write sorting by integer
+# print(sorted(signups,key= lambda id:int(id[3:]))) # Integer sort
+
+
+
+# import random as rand
+
+
+# for  i in range(5):
+#     print(rand.uniform(1,100))
+
+# # print(dir(rand))
+
+
+# goo = ["goo","ewiue","woewhe","Pakke"]
+
+# rand.choice(goo)
+# print(rand.choice(goo))
