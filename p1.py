@@ -979,4 +979,27 @@
 #     else:
 #         print(f" other winner are {winners[i]}  prize is {prize[i]}")
 
-print("Hiii")
+
+import random as rand
+print('Project - Math Tutor')
+
+
+pract_que = int(input("Enter the number of practice quetions : "))
+playe = {}
+for i in range(1,pract_que+1):
+    num1 = rand.randint(1,100)
+    num2 = rand.randint(1,100)
+    operands = ['+','-','*','/']
+    operand = rand.choice(operands)
+    if operand == "+" :  writeanwer = num1 + num2
+    elif operand == "-" :  writeanwer = num1 - num2
+    elif operand == "*" :  writeanwer = num1 * num2
+    else :   writeanwer = num1 / num2
+   
+    useranswer = int(input(f"{i}. {num1}{operand}{num2} = "))
+    if useranswer == writeanwer:
+        playe[i] = True
+    else:
+        playe[i] = False
+
+print(playe)
