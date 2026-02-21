@@ -1011,3 +1011,97 @@
 # print("Thankyou for playing the game")
 # print(F"total quetions correctly ansewerd are {count_wriht}")
 # print(f"the the perchentage of rite answe is {count_wriht/pract_que*100} %")
+
+
+
+# import random as rand
+
+# print('--- Project: Optimized Math Tutor ---')
+
+# # Use a try-except block to prevent the program from crashing if a user types a letter
+# try:
+#     pract_que = int(input("Enter the number of practice questions: "))
+# except ValueError:
+#     print("Please enter a valid number next time!")
+#     exit()
+
+# playe = {}
+# operands = ['+', '-', '*', '/']
+
+# for i in range(1, pract_que + 1):
+#     num1, num2 = rand.randint(1, 100), rand.randint(1, 100)
+#     operand = rand.choice(operands)
+    
+#     # Optimization: Use an f-string to build the math expression
+#     expression = f"{num1} {operand} {num2}"
+    
+#     # Optimization: eval() can calculate a string, but for safety/practice
+#     # we'll stick to a clean conditional or use the operator module.
+#     if operand == "+":   correct_ans = num1 + num2
+#     elif operand == "-":  correct_ans = num1 - num2
+#     elif operand == "*":  correct_ans = num1 * num2
+#     else:                 
+#         # For division, we round to 2 decimal places to make it fair
+#         correct_ans = round(num1 / num2, 2)
+#         print("(Round your answer to 2 decimal places)")
+
+#     try:
+#         user_input = input(f"{i}. {expression} = ")
+#         user_answer = float(user_input) # Use float so division answers work
+        
+#         # Store result directly in the dictionary
+#         playe[i] = (user_answer == correct_ans)
+        
+#         if not playe[i]:
+#             print(f"  ❌ Incorrect. The answer was {correct_ans}")
+#     except ValueError:
+#         playe[i] = False
+#         print("  ❌ Invalid input. Marked as wrong.")
+
+# # Optimization: You don't need a loop to count True values!
+# # In Python, True equals 1 and False equals 0.
+# count_right = sum(playe.values())
+# percentage = (count_right / pract_que) * 100
+
+# print("\n" + "="*20)
+# print("Thank you for playing!")
+# print(f"Total correct: {count_right}/{pract_que}")
+# print(f"Grade: {percentage:.2f}%") # :.2f limits the decimal places in the printout
+
+print('Project - Trading game simulation / pseudo code')
+
+import random as rand
+
+bag = ["green","green","green","green","green","green","red","red","red","red"]
+rand.shuffle(bag)
+print(bag)
+valet = 1000
+corent_valet = 1000
+
+rounds = int(input("Enter the how many rounds you whants to play : "))
+
+for i in range(rounds):
+    rand.shuffle(bag)
+    bet_amount = int(input("Enter how much amount you will going to enter : "))
+    value = rand.choice(bag)
+    
+    if (valet/2) > corent_valet :
+        print("you have low amount")
+        break
+    if corent_valet :
+        if value == "green":
+            corent_valet +=  bet_amount
+            print(f"you got {value} boll you won total {corent_valet}")
+        else:
+            corent_valet -= bet_amount
+            print(f"you got {value} boll you won total {corent_valet}")
+    else: 
+        if value == "green":
+            corent_valet = valet + bet_amount
+            print(f"you got {value} boll you won total {corent_valet}")
+        else:
+            corent_valet -= bet_amount
+            print(f"you got {value} boll you won total {corent_valet}")
+            
+   
+
