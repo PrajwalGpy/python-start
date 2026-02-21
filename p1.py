@@ -1068,40 +1068,40 @@
 # print(f"Total correct: {count_right}/{pract_que}")
 # print(f"Grade: {percentage:.2f}%") # :.2f limits the decimal places in the printout
 
-print('Project - Trading game simulation / pseudo code')
+# print('Project - Trading game simulation / pseudo code')
 
-import random as rand
+# import random as rand
 
-bag = ["green","green","green","green","green","green","red","red","red","red"]
-rand.shuffle(bag)
-print(bag)
-valet = 1000
-corent_valet = 1000
+# bag = ["green","green","green","green","green","green","red","red","red","red"]
+# rand.shuffle(bag)
+# print(bag)
+# valet = 1000
+# corent_valet = 1000
 
-rounds = int(input("Enter the how many rounds you whants to play : "))
+# rounds = int(input("Enter the how many rounds you whants to play : "))
 
-for i in range(rounds):
-    rand.shuffle(bag)
-    bet_amount = int(input("Enter how much amount you will going to enter : "))
-    value = rand.choice(bag)
+# for i in range(rounds):
+#     rand.shuffle(bag)
+#     bet_amount = int(input("Enter how much amount you will going to enter : "))
+#     value = rand.choice(bag)
     
-    if (valet/2) > corent_valet :
-        print("you have low amount")
-        break
-    if corent_valet :
-        if value == "green":
-            corent_valet +=  bet_amount
-            print(f"you got {value} boll you won total {corent_valet}")
-        else:
-            corent_valet -= bet_amount
-            print(f"you got {value} boll you won total {corent_valet}")
-    else: 
-        if value == "green":
-            corent_valet = valet + bet_amount
-            print(f"you got {value} boll you won total {corent_valet}")
-        else:
-            corent_valet -= bet_amount
-            print(f"you got {value} boll you won total {corent_valet}")
+#     if (valet/2) > corent_valet :
+#         print("you have low amount")
+#         break
+#     if corent_valet :
+#         if value == "green":
+#             corent_valet +=  bet_amount
+#             print(f"you got {value} boll you won total {corent_valet}")
+#         else:
+#             corent_valet -= bet_amount
+#             print(f"you got {value} boll you won total {corent_valet}")
+#     else: 
+#         if value == "green":
+#             corent_valet = valet + bet_amount
+#             print(f"you got {value} boll you won total {corent_valet}")
+#         else:
+#             corent_valet -= bet_amount
+#             print(f"you got {value} boll you won total {corent_valet}")
             
    
 
