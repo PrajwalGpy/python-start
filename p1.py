@@ -1102,6 +1102,8 @@
 #         else:
 #             corent_valet -= bet_amount
 #             print(f"you got {value} boll you won total {corent_valet}")
-            
+    
+print("hiii how are  you")
+
    
 
