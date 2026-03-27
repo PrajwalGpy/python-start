@@ -1105,3 +1105,72 @@
     # 
 # print("hiii how are  you")
 # 
+
+# name = "Prajwal"
+# home = f" i am go in  how how is it goo in {name}"
+
+# con = "-" * len(name)
+
+# print(name)
+# print(con)
+
+
+# name = 'Prajwal'
+
+# rev_name =  name[::-1]
+# print(rev_name)
+
+# name = 'KAnnada'
+
+# rev_name = name[::-1]
+
+# if name == rev_name:
+#     print(f"{name} is palidrome")
+# else:
+#     print(f"{name} not an palidrome")
+
+
+
+# def rev_string(text):
+#     rev_String = ""
+#     for char in text:
+#         rev_String = char + rev_String
+#     return rev_String
+# print(rev_string("Prajwal"))
+
+# name = "Prajwal"
+# name = name.lower()
+# print("".join(sorted(name)))
+
+
+
+
+# def are_anagrams(s1,s2):
+#     s1 = s1.replace(" ","").lower()
+#     s2 = s2.replace(" ","").lower()
+    
+#     return sorted(s1) == sorted(s2)
+
+# print(are_anagrams("PRajwal", "silent"))
+
+
+# def char_frequency(text):
+#     char_cont = {}
+#     for char in text :
+#         char_cont[char]= char_cont.get(char,0)+1
+#     return char_cont
+
+# print(char_frequency("pappu"))
+
+
+def remove_duplicates(text):
+    seen = set()
+    result = []
+    
+    for char in text:
+        if char not in seen:
+            seen.add(char)
+            result.append(char)
+    return ''.join(result)
+
+print(remove_duplicates("prajwallll"))
