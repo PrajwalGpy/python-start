@@ -1163,14 +1163,169 @@
 # print(char_frequency("pappu"))
 
 
-def remove_duplicates(text):
-    seen = set()
-    result = []
+# def remove_duplicates(text):
+#     seen = set()
+#     result = []
     
-    for char in text:
-        if char not in seen:
-            seen.add(char)
-            result.append(char)
-    return ''.join(result)
+#     for char in text:
+#         if char not in seen:
+#             seen.add(char)
+#             result.append(char)
+#     return ''.join(result)
 
-print(remove_duplicates("prajwallll"))
+# print(remove_duplicates("prajwallll"))
+
+
+
+# def non_ref(text):
+#     text = text.lower()
+#     char_count = {}
+#     for char in text:
+#         char_count[char] = char_count.get(char,0)+1
+#     char2 = []
+#     for vlaues,keys in char_count.items():
+#         if keys == 1:
+#             char2.append(vlaues)
+        
+#     return char2[0]
+
+# print(non_ref("Prajwalgp"))
+        
+        
+
+# def find_dub(text):
+#     seen = set()
+#     duplecates = set()
+    
+#     for char in text:
+#         if char  in seen:
+#             duplecates.add(char)
+#         else:
+#             seen.add(char)
+            
+#     return ''.join(duplecates)
+
+
+# print(find_dub("9099123"))
+
+
+# def second_large(num):
+#     large = set(num)
+    
+#     if len(large)< 2:
+#         return None
+#     large.remove(max(large))
+#     return max(large)
+
+# print(second_large([20,40,50,40,30,20]))
+
+
+# def move_zero(num):
+#     l = 0
+    
+#     for r in range(len(num)):
+#         if num[r] != 0:
+#             num[r],num[l] = num[l],num[r]
+#             l += 1
+#     return num
+
+
+# print(move_zero([90,0,2,0,2]))
+            
+# def two_sum(values, target):
+#     prev_map = {} # val : index
+    
+#     for i, num in enumerate(values):
+#         diff = target - num # We need THIS number to reach the target
+        
+#         if diff in prev_map:
+#             # If the needed number was already seen, return its index and current index
+#             return [prev_map[diff], i]
+        
+#         # Otherwise, store the current number and its index
+#         prev_map[num] = i 
+
+# print(two_sum([2, 4, 8, 6], 6)) # Output: [0, 1] because 2 + 4 = 6
+
+# Iterative: Reliable and fast
+
+
+# def fact(num):
+#     res = 1
+#     for i in range(2,num + 1 ):
+#         res *= i
+#     return res
+# print(fact(4))
+
+
+
+# def find_dup(num):
+#     seen = set()
+#     duplecate = set()
+    
+#     for nums in num :
+#         if nums in seen :
+#             duplecate.add(nums)
+#         else:
+#             seen.add(nums)
+#     return list(duplecate)
+
+# print(find_dup([20,10,40,50,30,10,0,20,1]))
+
+
+
+# def second_large(num):
+#     num = set(num)
+    
+#     num.remove(max(num))
+#     return max(num)
+# print(second_large([20,30,40,50,60]))
+
+
+
+# def moove_zero(num):
+#     l = 0
+    
+#     for r in range(len(num)):
+#         if num[r] != 0:
+#             num[r],num[l] = num[l],num[r]
+#             l += 1
+#     return num
+# print(moove_zero([10,0,20,0,50,0]))
+
+
+# def tow_sum(value,target):
+#     pre = {}
+    
+#     for i,nums in enumerate(value):
+#         deff = target - nums
+#         if deff in pre:
+#             return [pre[deff],i]
+#         pre[nums] = deff
+#     return
+# print(tow_sum([1,2,4,5,6],3))
+
+
+# def fact(num):
+#     rev = 1
+#     for i in  range(2,num+1):
+#         rev *= i
+#     return rev
+# print(fact(3))
+
+
+# def fibonichi(num):
+#     serices = []
+#     cur= 0
+#     next = 1
+    
+#     for _ in range(num):
+        
+#         serices.append(cur)
+        
+#         sum_num  =  cur + next
+        
+#         cur = next
+#         next = sum_num
+#     return serices
+# print(fibonichi(5))
