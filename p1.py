@@ -1329,3 +1329,82 @@
 #         next = sum_num
 #     return serices
 # print(fibonichi(5))
+
+
+
+
+# def rev(text):
+#     rev = ""
+#     for char in text:
+#         rev = char + rev
+#     return rev
+# print(rev('PRajwal'))
+
+
+# def pal(text):
+#     left,right= 0,len(text)-1
+
+#     while left < right:
+#         if  text[left] != text[right]:
+#             return False
+#         left += 1
+#         right -= 1
+#     return True
+# print(pal('madama'))
+
+
+# def ano(s1,s2):
+#     s1 = s1.replace(" ","").lower()
+#     s2 = s2.replace(" ","").lower()
+
+#     if sorted(s1) == sorted(s2):
+#         return True
+#     else:
+#         return False
+
+# print(ano('pajju','ujjpi'))
+
+
+# def carfre(text):
+#     prev = {}
+#     for char in text:
+#             prev[char] = prev.get(char,0)+1
+#     return prev
+
+# print(carfre('jaddu'))
+
+
+# def rdup(text):
+#     seen = set()
+#     result = []
+#     for char in text:
+#         if char not in seen:
+#             seen.add(char)
+#             result.append(char)
+#     return "".join(result)
+
+# print(rdup("PRajwalgP"))
+
+# def fnon(text):
+#     prev = {}
+#     for char in text:
+#         prev[char] = prev.get(char,0)+1
+    
+#     for chare in prev:
+#         if prev[chare] == 1:
+#             return  chare
+#     return None
+# print(fnon("AnilAN"))
+
+def remdup(text):
+    seen = set()
+    reult = []
+
+    for  char in text :
+        if char  not in seen:
+            seen.add(char)
+            reult.append(char)
+    
+         
+    return reult 
+print(remdup('gooohomw'))
