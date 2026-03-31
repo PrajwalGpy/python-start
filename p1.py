@@ -1396,15 +1396,55 @@
 #     return None
 # print(fnon("AnilAN"))
 
-def remdup(text):
-    seen = set()
-    reult = []
+# def remdup(text):
+#     seen = set()
+#     reult = []
 
-    for  char in text :
-        if char  not in seen:
-            seen.add(char)
-            reult.append(char)
+#     for  char in text :
+#         if char  not in seen:
+#             seen.add(char)
+#             reult.append(char)
     
          
-    return reult 
-print(remdup('gooohomw'))
+#     return reult 
+# print(remdup('gooohomw'))
+
+
+# def dup_int(num):
+#     seen = set()
+#     duplecate = []
+
+#     for nums in num :
+#         if nums  in seen:
+#             duplecate.append(nums)
+#         else:
+#             seen.add(nums)
+#     return duplecate
+
+# print(dup_int([10,20,30,10,20,1,3,2]))
+
+
+
+# def second_large(nums):
+#     l=second_l = float('-inf')
+
+#     for num in nums:
+#         if num > l :
+#             second_l = l
+#             l = num
+#         elif num > second_l and num!=l:
+#             second_l =num
+#     return second_l
+# print(second_large([10,20,3,5,100,6]))
+
+
+def moove_z(nums):
+   
+    j = 0
+    for i in range(len(nums)):
+        if nums[i] != 0:
+            nums[j],nums[i] = nums[i],nums[j]
+            j += 1
+    return nums
+
+print(moove_z([20,0,0,4,0,5]))
