@@ -1438,13 +1438,55 @@
 # print(second_large([10,20,3,5,100,6]))
 
 
-def moove_z(nums):
+# def moove_z(nums):
    
-    j = 0
-    for i in range(len(nums)):
-        if nums[i] != 0:
-            nums[j],nums[i] = nums[i],nums[j]
-            j += 1
-    return nums
+#     j = 0
+#     for i in range(len(nums)):
+#         if nums[i] != 0:
+#             nums[j],nums[i] = nums[i],nums[j]
+#             j += 1
+#     return nums
 
-print(moove_z([20,0,0,4,0,5]))
+# print(moove_z([20,0,0,4,0,5]))
+
+
+# def Fact(num):
+
+#     res =1
+#     for nums in range(2,num+1):
+#         res *= nums
+#     return res
+# print(Fact(3))
+
+# def figo(n):
+#     a= 0
+#     b= 1
+#     res =[]
+
+#     for _ in range(n):
+#         res.append(a)
+#         a,b=b,a+b
+#     return res
+# print(figo(10))
+
+# def prime(n):
+#     if n <= 1:
+#         return False
+    
+#     for i in range(2,n):
+#         if n % i == 0:
+#             return False
+#     return True
+
+    
+
+# print(prime(10))
+
+# def missing_number(nums):
+#     n = len(nums)+1
+#     c_sum = n*(n+1) // 2
+#     r_sum = sum(nums)
+#     return c_sum - r_sum
+# print(missing_number([1,2,3,4,5,6,7,9]))
+
+print("Hii")
