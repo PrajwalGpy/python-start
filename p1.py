@@ -5,7 +5,7 @@
 # print("hiii my name is " + name + " i am " + str(age) + " old " + " corrent year is " +  str(year)) 
 
 
-# type casting hooo yoiiii
+# type casting hooo yoiiii jjjjjjj
 
 # print(type(8.90))
 # print(type("45"))
